@@ -1,16 +1,11 @@
-# Programming Languages for Data Analysis (CS504) — Assignment 3
-
-Coursework for **Programming Languages for Data Analysis (CS504)**, Department of Computer Science,
-Bishop's University.
-
-## Predicting medical insurance cost with linear and LASSO regression
+# Predicting Medical Insurance Costs with Linear and LASSO Regression
 
 Building regression models to predict individual medical charges from age, sex, BMI, number of
-children, smoker status and region. The dataset is the well-known
+children, smoker status, and region. The dataset is the well-known
 [insurance.csv](https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv)
 (1,338 records).
 
-The solution is in [`Assignment_3.ipynb`](Assignment_3.ipynb).
+The full implementation is in [`insurance_cost_regression.ipynb`](insurance_cost_regression.ipynb).
 
 ## What the notebook does
 
@@ -31,12 +26,13 @@ The solution is in [`Assignment_3.ipynb`](Assignment_3.ipynb).
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-jupyter notebook Assignment_3.ipynb
+jupyter notebook insurance_cost_regression.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment_3.ipynb` | Full solution |
+| `insurance_cost_regression.ipynb` | Full implementation and analysis |
 | `insurance.csv` | Dataset (stedy/Machine-Learning-with-R-datasets) |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
